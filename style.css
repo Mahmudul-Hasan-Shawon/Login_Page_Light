@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+}
+
+/*------------ Login container ------------*/
+
+.box-area{
+    width: 830px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 16px;
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+
+}
+
+/*------------ Button------------*/
+.btn{
+    background-color: #6e34f4;
+    transition: .3s ease-in-out;
+    
+    border: none;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+/*------------ Button: Hover ------------*/
+.btn:hover{
+    background-color: #071952;
+    transition: .3s ease-in-out;
+    border: none;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+/*------------ Form ------------*/
+.form-control,.form-select{
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: #ede5ff;
+}
+
+.form-control:focus{
+        box-shadow:none;
+        border-color: #6e34f4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #bda1ff;
+    
+    }
+
+    .shadow {
+        box-shadow: 0 .5rem 1rem #d6c4ff!important;
+    }
