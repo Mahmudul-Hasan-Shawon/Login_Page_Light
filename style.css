@@ -35,9 +35,6 @@ body{
 
 @media only screen and (max-width: 768px){
 
-    .img-fluid{
-        display: none;
-    }
 
      .box-area{
         margin: 0 10px;
