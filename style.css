@@ -193,7 +193,7 @@ body{
     .card-title {
         margin-top: 0px;
         font-weight: 700;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .card-title a {
@@ -209,10 +209,10 @@ body{
     background-color: #6e34f4;
     transition: .3s;
     font-family: 'Poppins', sans-serif;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .d_button:hover{
